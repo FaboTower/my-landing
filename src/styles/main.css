@@ -1,0 +1,12 @@
+:root{
+    --hero-gradient-start: #4f46e5;
+    --hero-gradient-end: #3b82f6;
+}
+html, body, #app {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f9fafb;
+    color: #111827;
+    height: 100%;
+}
