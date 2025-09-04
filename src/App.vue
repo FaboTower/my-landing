@@ -4,11 +4,11 @@
 </script>
 
 <template>
-<v-app>
-  <AppNavBar />
-  <v-main>
-    <RouterView />
-  </v-main>
-  <AppFooter />
+  <v-app>
+    <AppNavBar />
+    <main>
+      <RouterView />
+    </main>
+    <AppFooter />
 </v-app>
 </template>

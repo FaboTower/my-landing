@@ -14,8 +14,8 @@
                 <RouterLink to="/contact">
                     <v-btn link>Contact</v-btn>
                 </RouterLink>
-                <RouterLink to="/contact2">
-                    <v-btn link>Contact 2</v-btn>
+                <RouterLink to="/ejemplo">
+                    <v-btn link>ABP3</v-btn>
                 </RouterLink>
             </div>
             <v-menu class="d-md-none" offset-y left>
