@@ -17,6 +17,9 @@
                 <RouterLink to="/ejemplo">
                     <v-btn link>ABP3</v-btn>
                 </RouterLink>
+                <RouterLink to="/poke">
+                    <v-btn link>Poke Búsqueda</v-btn>
+                </RouterLink>
             </div>
             <v-menu class="d-md-none" offset-y left>
                 <template #activator="{ props }">

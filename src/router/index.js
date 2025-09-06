@@ -2,11 +2,13 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from '@/views/HomePage.vue'
 import ContactPage from '@/views/ContactPage.vue'
 import EjemploPage from '@/views/EjemploPage.vue'
+import PokePage from '@/views/PokePage.vue'
 
 const routes = [
   { path: '/', name:'Home', component: HomePage },
   { path: '/contact', name: 'Contact', component: ContactPage },
-  { path: '/ejemplo', name: 'ABP3', component: EjemploPage }
+  { path: '/ejemplo', name: 'ABP3', component: EjemploPage },
+  {path: '/poke', name: 'Poke', component: PokePage }
 ];
 
 const router = createRouter({
