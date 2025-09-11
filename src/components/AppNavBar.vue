@@ -20,6 +20,12 @@
                 <RouterLink to="/poke">
                     <v-btn link>Poke Búsqueda</v-btn>
                 </RouterLink>
+                 <RouterLink to="/Productos">
+                    <v-btn link>Productos</v-btn>
+                </RouterLink>
+                <RouterLink :to="{ name: 'Productos-por-Marca', params: { brand: 'Brand A' } }">
+                    <v-btn link>Apple</v-btn>
+                </RouterLink>
             </div>
             <v-menu class="d-md-none" offset-y left>
                 <template #activator="{ props }">
